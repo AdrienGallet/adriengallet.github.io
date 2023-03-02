@@ -3,5 +3,5 @@ layout: default
 title: Home
 ---
 
-# Hello world!
-Let's see if this would work. Test 4.
+# Adrien's Home Page
+Welcome to my page. More to come soon.
