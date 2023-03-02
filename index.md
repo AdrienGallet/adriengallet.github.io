@@ -1,2 +1,5 @@
-# adriengallet.github.io
-This is a test to see if this updates on the site.
+# Adrien Gallet's page
+
+Welcome, and thanks for choosing our product.
+
+If you want to dive right in, try our [quick start tutorial](./). 
