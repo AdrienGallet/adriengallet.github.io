@@ -18,7 +18,7 @@
 ##############################
 text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://www.adriengallet.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://www.adriengallet.com # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : AdrienGallet
 description: > # this means to ignore newlines until "Language & timezone"
@@ -36,7 +36,7 @@ timezone: Europe/London # see https://en.wikipedia.org/wiki/List_of_tz_database_
 author:
   type      : # "person" (default), "organization"
   name      : Adrien Gallet
-  url       : https://www.adriengallet.github.io
+  url       : https://www.adriengallet.com
   avatar    : # path or url of avatar image (square)
   bio       : Doctoral researcher amongst other things.
   email     : 
@@ -56,7 +56,7 @@ author:
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
 repository: AdrienGallet/adriengallet.github.io
-repository_tree: master
+repository_tree: main
 
 
 ## => Paths
