@@ -1,5 +1,37 @@
 ---
-layout: home
-# articles:
-#   excerpt_type: html
+layout: page
 ---
+
+<div class="grid">
+    <div class="cell cell--2">
+        <div class="card">
+            <div class="card__image">
+              <img class="image" src="assets/Adrien-Gallet-portrait.png"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="cell cell--auto">
+        <div class="card">
+            <div class="card__content">
+                <div class="card__header">
+                    <h4>Hi, I'm Adrien.</h4>
+                </div>
+                <p>I'm a doctoral researcher in data-driven design models at the University of Sheffield. Check out my posts, publications and about me section to find out more!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div <p style="margin-bottom:1cm;"></p> </div>
+
+<div class="layout--archive js-all">
+    {%- include tags.html -%}
+    <div class="js-result layout--archive__result d-none">
+      {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+    </div>
+  </div>
+  
+  <script>
+    {%- include scripts/archieve.js -%}
+  </script>
