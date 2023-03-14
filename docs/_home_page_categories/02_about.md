@@ -1,8 +1,8 @@
 ---
-layout: article
+layout: page
 title: About
-permalink: /about.html
-key: about-test
+permalink: /about
+key: about
 cover: /assets/images/home_page/about_cover10.png
 ---
 

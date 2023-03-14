@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Publications
-permalink: /publications.html
-key: publications-test
+permalink: /publications
+key: publications
 cover: /assets/images/home_page/book_cover4.png
 ---
 

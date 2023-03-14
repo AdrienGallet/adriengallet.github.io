@@ -19,9 +19,9 @@ source: ./docs
 collections:
   home_page_categories:
     output: true
-    #order:
-    #  - 01_publications.md
-    #  - 02_about.md
+    order:
+      - 01_publications.md
+      - 02_about.md
 
 
 ## => Site Settings
