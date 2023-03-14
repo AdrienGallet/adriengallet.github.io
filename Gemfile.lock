@@ -258,6 +258,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.9.3)
+  jekyll-commonmark
   tzinfo-data
   wdm (>= 0.1.0)
   webrick (~> 1.8)
