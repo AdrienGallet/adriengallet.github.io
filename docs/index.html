@@ -1,29 +1,27 @@
 ---
-layout: page
+layout: articles_pre_content
+articles:
+  data_source: site.home_page_categories
+  type: grid
+  size: sm
 ---
 
-<div class="grid">
-    <div class="cell cell--12">
-        <div class="card">
-            <div class="card__content">
-                <div class="card__header">
-                    <h4>Hi, I'm Adrien.</h4>
-                </div>
-                <p>I'm a doctoral researcher in data-driven design models at the University of Sheffield. Check out my posts and publications to find out more!</p>
-            </div>
-        </div>
+
+<div class="item">
+    <div class="item__image">
+      <img class="image image--md image--rounded" src="/assets/Adrien-Gallet-portrait.png"/>
     </div>
-</div>
-
-<div <p style="margin-bottom:1cm;"></p> </div>
-
-<div class="layout--archive js-all">
-    {%- include tags.html -%}
-    <div class="js-result layout--archive__result d-none">
-      {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
+    <div class="item__content">
+      <div class="item__header">
+        <h4>Hi, I'm Adrien!</h4>
+      </div>
+      <div class="item__description">
+        <p>
+            Welcome to my website! <br><br>
+            I'm a doctoral researcher in data-driven design models at the University of Sheffield.
+            I'm a big believer in the data-driven tech for civil and structural (CivEng) applications.
+            Find out more about me abd my publications!
+        </p>
+      </div>
     </div>
   </div>
-  
-  <script>
-    {%- include scripts/archieve.js -%}
-  </script>
